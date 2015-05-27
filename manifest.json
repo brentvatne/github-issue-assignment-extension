@@ -1,0 +1,25 @@
+{
+  "background": {"scripts": ["background.js"]},
+  "browser_action": {
+   "default_icon": "icon-128.png",
+   "default_title": "Assign Github Issue"
+  },
+  "name": "Github Issue Assigner",
+  "description": "Assign issues without going through the Github UI which breaks on large projects",
+  "homepage_url": "https://github.com/brentvatne/github-issue-assign-extension",
+  "icons": {
+    "16": "icon-16.png",
+    "38": "icon-38.png",
+    "48": "icon-48.png",
+    "64": "icon-64.png",
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "cookies",
+    "https://github.com/**/*"
+  ],
+  "version": "0.1",
+  "manifest_version": 2
+}
